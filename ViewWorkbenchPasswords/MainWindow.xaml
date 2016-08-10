@@ -1,0 +1,12 @@
+﻿<Window x:Class="ViewWorkbenchPasswords.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViewWorkbenchPasswords"
+        mc:Ignorable="d"
+        Title="MySQL Workbench Password Viewer" Height="350" Width="525" Initialized="Window_Initialized" Icon="mysql_workbench_password_viewer_icon.ico">
+    <Grid>
+        <TextBox x:Name="Output" TextWrapping="Wrap" IsReadOnly="True"/>
+    </Grid>
+</Window>
