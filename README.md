@@ -1,7 +1,7 @@
 # MySQL Workbench Password Viewer
 Code base for C# program allowing one to view passwords stored by MySQL Workbench.
 
-# Steps to run:
+## Steps to run:
 
 1. Open in Visual Studio.
 2. Build & Run.
